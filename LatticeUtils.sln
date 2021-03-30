@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatticeUtils", "LatticeUtils\LatticeUtils.csproj", "{A079B21C-4EAB-4F69-AC4D-234268C1D861}"
 EndProject
@@ -15,6 +15,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{902575
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatticeUtils.ExampleTests", "LatticeUtils.ExampleTests\LatticeUtils.ExampleTests.csproj", "{F37C1AD8-F930-45F9-9B91-37E32CC8B52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatticeUtils.Core", "LatticeUtils.Core\LatticeUtils.Core.csproj", "{96580233-9BF2-40FA-859F-DADCD209189B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatticeUtils.Core.ExampleTests", "LatticeUtils.Core.ExampleTests\LatticeUtils.Core.ExampleTests.csproj", "{2CDD1CAD-0708-4669-B787-9DB6C3BF082E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatticeUtils.Core.UnitTests", "LatticeUtils.Core.UnitTests\LatticeUtils.Core.UnitTests.csproj", "{1443E725-4BC8-4014-AEBB-D016F00907AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreVersion", "CoreVersion", "{9A7FBCDA-43CF-4FBE-B8F4-BE19562C7C12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameworkVersion", "FrameworkVersion", "{A950303F-05CF-4740-91D4-7B8EB98179F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,8 +44,31 @@ Global
 		{F37C1AD8-F930-45F9-9B91-37E32CC8B52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F37C1AD8-F930-45F9-9B91-37E32CC8B52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F37C1AD8-F930-45F9-9B91-37E32CC8B52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96580233-9BF2-40FA-859F-DADCD209189B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96580233-9BF2-40FA-859F-DADCD209189B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96580233-9BF2-40FA-859F-DADCD209189B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96580233-9BF2-40FA-859F-DADCD209189B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDD1CAD-0708-4669-B787-9DB6C3BF082E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDD1CAD-0708-4669-B787-9DB6C3BF082E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDD1CAD-0708-4669-B787-9DB6C3BF082E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDD1CAD-0708-4669-B787-9DB6C3BF082E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1443E725-4BC8-4014-AEBB-D016F00907AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1443E725-4BC8-4014-AEBB-D016F00907AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1443E725-4BC8-4014-AEBB-D016F00907AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1443E725-4BC8-4014-AEBB-D016F00907AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A079B21C-4EAB-4F69-AC4D-234268C1D861} = {A950303F-05CF-4740-91D4-7B8EB98179F0}
+		{FBCBC102-CBDB-41D5-A1FA-F455A9A0662F} = {A950303F-05CF-4740-91D4-7B8EB98179F0}
+		{F37C1AD8-F930-45F9-9B91-37E32CC8B52F} = {A950303F-05CF-4740-91D4-7B8EB98179F0}
+		{96580233-9BF2-40FA-859F-DADCD209189B} = {9A7FBCDA-43CF-4FBE-B8F4-BE19562C7C12}
+		{2CDD1CAD-0708-4669-B787-9DB6C3BF082E} = {9A7FBCDA-43CF-4FBE-B8F4-BE19562C7C12}
+		{1443E725-4BC8-4014-AEBB-D016F00907AA} = {9A7FBCDA-43CF-4FBE-B8F4-BE19562C7C12}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C32EF798-090B-41E4-8382-145510F7DE33}
 	EndGlobalSection
 EndGlobal
